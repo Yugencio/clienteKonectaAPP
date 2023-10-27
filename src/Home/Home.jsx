@@ -1,5 +1,6 @@
 import "./Home.css";
 import { Menu } from "../Menu/Menu";
+import { Usuario } from "../Usuario/Usuario";
 
 export function Home() {
   return (
@@ -13,6 +14,9 @@ export function Home() {
           dicta illum ad, alias officia a, est iure laudantium aperiam pariatur,
           placeat labore! Sapiente ex eum aperiam omnis delectus. Enim, odit.
         </p>
+      </section>
+      <section className="my-5">
+            <Usuario></Usuario>  
       </section>
     </>
   );
